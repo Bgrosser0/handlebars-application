@@ -1,7 +1,6 @@
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
   }
   
   .label {
@@ -11,7 +10,6 @@ li {
   .create-form {
     padding: 5px;
     margin: 5px;
-    background: rgb(255, 230, 0);
   }
   
   .form-group {
@@ -19,6 +17,26 @@ li {
   }
 
   #daBody {
-      background-color: orangered;
+      background-color: #f6a760;
   }
   
+  #toEat {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #86b24f;
+  }
+
+  #Eaten {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f2c338;
+  }
+
+  #Header {
+      margin-top: 10px;
+      background-color: #d9534f;
+  }
+
+  #addBurg {
+    background-color: #e7a39e;
+  }
