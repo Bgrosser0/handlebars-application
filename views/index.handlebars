@@ -16,7 +16,7 @@
     <div class="col-md-6">
 
 <div class="card" id="toEat">
-  <div class="card-header">
+  <div class="card-header" id="toEatHeader">
       
     <h2>Burgers to eat!</h2>
   </div>
@@ -39,7 +39,7 @@
 
 
 <div class="card" id="Eaten">
-  <div class="card-header">
+  <div class="card-header" id="EatenHeader">
     <h2>Eaten Burgers!</h2>  </div>
   <div class="card-body">
 
@@ -59,7 +59,7 @@
 </div>
 
 <div class="card" id="addBurg">
-  <div class="card-header">
+  <div class="card-header" id="addBurgHeader">
     <h2>Add a Burger!</h2>  </div>
   <div class="card-body">
 
@@ -68,12 +68,6 @@
   <div class="form-group">
     <label for="burg">New Burger:</label>
     <input type="text" class="form-control" id="burg" name="name">
-  </div>
-
-  <div class="form-group">
-    <label for="devoured">Eaten Already?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Yeah!<br>
-    <input type="radio" name="devoured" value="0"> Nope
   </div>
 
   <button type="submit">Add Burger</button>

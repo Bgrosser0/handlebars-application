@@ -26,10 +26,18 @@ li {
     background-color: #86b24f;
   }
 
+  #toEatHeader {
+    background-color: #95b46f;
+  }
+
   #Eaten {
     padding: 10px;
     margin-bottom: 20px;
     background-color: #f2c338;
+  }
+
+  #EatenHeader {
+    background-color: #e6ca78;
   }
 
   #Header {
@@ -39,4 +47,8 @@ li {
 
   #addBurg {
     background-color: #e7a39e;
+  }
+
+  #addBurgHeader {
+    background-color: #e9c4c2;
   }
